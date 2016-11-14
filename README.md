@@ -11,3 +11,5 @@ Consumer is based on the Kafka Stream Implementation (Typically called High Leve
 Utilizes Kafkas Partitioning Ability to send a set of ClickStream Access Log to a Specific partition based on [Link] [1]
 [1]: https://cwiki.apache.org/confluence/display/KAFKA/0.8.0+Producer+Example
 
+* Multi Threaded Consumer 
+Uses Kafkas innate multi threaded stream along with Thread Pool Executor to consume data from Multiple Partitions simultaneously.
